@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.toyotago.app"
+    versionCode = "10"
+    version     = "2.23.05" >
+  <name>Toyota GO</name>
+
+  <description>
+      Aplicacion de la comunidad Toyota de Ecuador
+  </description>
+
+  <author href="http://burtoncloud.com" email="frank@burtonservers.com">
+      Frank Montagne
+  </author>
+
+  <icon src="logo.png" />
+
+  <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+  <allow-navigation href="http://*/*" />
+  <allow-intent href="https://*/*" />
+</widget>
